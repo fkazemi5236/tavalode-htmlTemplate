@@ -1,0 +1,33 @@
+.reveal.floating {
+	background-color: #fff;
+}
+
+@media screen and (max-width: 640px) {
+	.reveal.floating {
+		position  : relative;
+		min-height: unset;
+		height    : unset;
+		right     : auto;
+		left      : auto;
+		margin    : 0 auto;
+		width     : 80%;
+	}
+
+	.reveal.floating button.close-button {
+		top: 10px;
+	}
+}
+
+.install_app svg {
+	height        : 300px;
+	margin       : auto;
+	display      : block;
+	margin-bottom: 20px;
+}
+
+/* Medium only */
+@media screen and (min-width: 40em) and (max-width: 63.9375em) {
+	.reveal.tiny {
+		width: 60%;
+	}
+}
